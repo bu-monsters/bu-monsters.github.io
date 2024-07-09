@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900');
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.topnav a.split {
+  float: right;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+footer {
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.center { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+label {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+body {
+  font-size: 100%;
+  background-color: #f5f6fc;
+  font-family: 'Raleway';
+}
+
+.monster-site-button {
+    height:40px;
+    width:300px;
+    font-size: 1.5em;
+    border-radius: 50px;
+    background-color: #00B4C4;
+    color: white;
+    border: none;
+}
+
+.monster-site-input-field {
+    display:flex;
+    height:50px;
+    width:350px;
+    justify-content:center;
+    align-items:center;
+    font-size: 2em;
+    border-radius: 8px;
+    border-color: #d3d3d3;
+}
+
+#forgot-password {
+    text-align: center;
+}
+
+a {
+    font-size: 25px;
+    text-decoration:none;
+    color: #00B4C4;
+}
+
+.monster-image {
+    border-radius: 24px;
+    margin-left: 50px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#contact-us {
+    font-size: 15px;
+}
+
+#profile-image {
+    width: 150px;
+    height: 150px;
+}
+
+.monster-site-header-button {
+    height:25px;
+    width:110px;
+    font-size: 1.5em;
+    border-radius: 50px;
+    background-color: #00B4C4;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#home-title-text {
+    font-size: 72px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+
+#home-description-text {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.monster-image {
+    width: 100%;
+    height: 45%;
+    margin-bottom: 5px;
+}
+
+.monster-badge {
+    text-align: left;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline;
+    padding: 5px;
+}
+
+.monster-title {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.monster-description {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.monster {
+    display: inline-block;
+    height: 380px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-right: 100px;
+    margin-top: 150px;
+    background: #25c9d9;
+    width: 512px;
+    height: 512px;
+    border-radius: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+#qr-code {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+#monster-details-container {
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-right: 100px;
+} 
+
+#monster-details-text-container {
+    width: 50%;
+    height: 50%;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+#monster-detail-image {
+    border-radius: 36px;
+    display: inline-block;
+}
+
+#monster-details-title {
+    font-weight: 600;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+#monster-details-description {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#details {
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.monster-detail-button {
+    font-size: 1.5em;
+    border-radius: 50px;
+    background-color: #00B4C4;
+    color: white;
+    border: none;
+    height:50px;
+    width:200px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#detail-buttons {
+    justify-content: left;
+    align-items: left;
+}
+
+
+#details-badge-container {
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+#details-badge-text {
+    font-size: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline;
+}
