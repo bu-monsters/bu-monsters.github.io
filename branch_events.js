@@ -1,8 +1,10 @@
 function trackEvent(eventName) {
+  var randomRevenue = getRandomRevenue(101);
+  
   if (eventName == "ADD_TO_CART") {
     var event_and_custom_data = {
       "currency": "EUR",
-      "revenue": 120.0,
+      "revenue": randomRevenue,
       "coupon": "coupon_code"
     };
 
@@ -20,7 +22,7 @@ function trackEvent(eventName) {
   else if(eventName == "PURCHASE") {
     var event_and_custom_data = {
       "currency": "EUR",
-      "revenue": 120.0,
+      "revenue": randomRevenue,
       "coupon": "coupon_code"
     };
 
@@ -41,4 +43,8 @@ function trackEvent(eventName) {
 
     setTimeout(function(){alert("Branch " + eventName + " event was tracked!")},500);
   }
+}
+
+function getRandomRevenue(exclusiveMax) {
+  return Math.floor(Math.random() * exclusiveMax);
 }
