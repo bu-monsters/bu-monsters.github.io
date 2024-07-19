@@ -36,7 +36,10 @@ On iOS, the user will be prompted to install TestFlight if they don't have it in
 - `ADD_TO_CART`
 - `PURCHASE`
 - `SHARE`
+- `LOGIN`
+- `COMPLETE_REGISTRATION`
 
 ### Custom
 - `CONTACT_US`
 - `REFER_A_FRIEND`
+- `LOGOUT`
