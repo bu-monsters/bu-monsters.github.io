@@ -23,11 +23,20 @@ To run this web app locally:
 1. Clone the repository: `git clone https://github.com/bu-monsters/bu-monsters.github.io.git`
 2. Open `index.html` in your web browser.
 
-## User Usage
-
-### Landing Page Functionality
+## Landing Page Functionality
 When the user hits the landing page, they can use their phone to scan the QR code.
 
 On Android, this will open a Google Drive link, where they can download the `.apk` file. When they open the file, they'll be prompted to install and open the app.
 
 On iOS, the user will be prompted to install TestFlight if they don't have it installed already. Once they install it, open it, and walk through the TestFlight prompts, they'll be given a button to install the iOS app. If they already have TestFlight installed, they'll simply need to accept the terms of service screen that appears after the QR code is scanned.
+
+## Branch Events Tracked
+
+### Standard
+- `ADD_TO_CART`
+- `PURCHASE`
+- `SHARE`
+
+### Custom
+- `CONTACT_US`
+- `REFER_A_FRIEND`
