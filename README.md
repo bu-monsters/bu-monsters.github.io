@@ -3,7 +3,7 @@
 ## Overview
 Branch University MonsterSite is a web app that includes a landing page (with a custom Branch QR Code), a shop, and a profile page. The Branch QR Code is meant to give users a way to download either the Android or iOS app version of this demo to their phones.
 
-## Structure
+## Project Structure
 Some of the main files and folders in this repo:
 - `index.html`: Main HTML file; used for the landing page and to initialize the Branch Web SDK
 - `styles.css`: The CSS file for all styles
