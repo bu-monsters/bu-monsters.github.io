@@ -19,6 +19,13 @@
     column-gap: 10px;
 }
 
+@media (min-width: 768px) {
+    #topnav, .topnav {
+        /* Desktop height override */
+        height: 200px; 
+    }
+}
+
 #topnav a {
     display: flex;
     align-items: center;
