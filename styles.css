@@ -26,11 +26,11 @@
 @media (min-width: 768px) {
     #topnav, .topnav {
         /* Desktop height override */
-        height: 300px; 
+        height: 100px; 
     }
 
     #home img {
-        height: 300px;
+        height: 100px;
     }
 }
 
