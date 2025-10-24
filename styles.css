@@ -15,7 +15,7 @@
     justify-content: space-evenly; 
     
     /* Add padding/height for aesthetics (optional) */
-    height: 200px; 
+    height: 60px; 
     column-gap: 10px;
 }
 
