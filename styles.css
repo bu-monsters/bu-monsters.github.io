@@ -20,7 +20,7 @@
 }
 
 #home img {
-    height: 100 px;
+    height: 100px;
 }
 
 @media (min-width: 768px) {
@@ -30,7 +30,7 @@
     }
 
     #home img {
-        height: 300 px;
+        height: 300px;
     }
 }
 
