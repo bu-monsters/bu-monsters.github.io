@@ -19,10 +19,18 @@
     column-gap: 10px;
 }
 
+#home {
+    height: 100 px;
+}
+
 @media (min-width: 768px) {
     #topnav, .topnav {
         /* Desktop height override */
         height: 300px; 
+    }
+
+    #home {
+        height: 300 px;
     }
 }
 
