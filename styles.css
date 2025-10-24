@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900');
 
-.topnav {
+/* .topnav {
     overflow: hidden;
-}
+} */
 
 #topnav, .topnav {
     /* 1. Enable Flexbox for horizontal arrangement */
@@ -15,14 +15,14 @@
     justify-content: space-evenly; 
     
     /* Add padding/height for aesthetics (optional) */
-    height: 60px; 
+    height: 100px; 
     column-gap: 10px;
 }
 
 @media (min-width: 768px) {
     #topnav, .topnav {
         /* Desktop height override */
-        height: 200px; 
+        height: 400px; 
     }
 }
 
