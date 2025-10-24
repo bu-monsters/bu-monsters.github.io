@@ -15,23 +15,8 @@
     justify-content: space-evenly; 
     
     /* Add padding/height for aesthetics (optional) */
-    height: 100px; 
+    height: 60px; 
     column-gap: 10px;
-}
-
-#home img {
-    height: 100px;
-}
-
-@media (min-width: 768px) {
-    #topnav, .topnav {
-        /* Desktop height override */
-        height: 100px; 
-    }
-
-    #home img {
-        height: 100px;
-    }
 }
 
 #topnav a {
