@@ -176,15 +176,12 @@ h2 {
 
 #home-title-text {
     font-size: 4.5rem; 
-    text-align: left;
-    margin-left: 50px;
-    margin-top: 300px; 
+    text-align: center;
 }
 
 #home-description-text {
     font-size: 1.56rem;
-    text-align: left;
-    margin-left: 50px;
+    text-align: center;
 }
 
 
