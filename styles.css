@@ -68,21 +68,21 @@
         order: 1; 
     }
 
-    #home .logo-img {
-        width: 20%; /* Fixed smaller size for mobile */
+    /* #home .logo-img {
+        width: 20%; 
         height: 20%; 
-        margin: 0; /* Remove margins */
-    }
+        margin: 0; 
+    } */
 
     #profile {
         order: 2; 
     }
 
-    #profile .profile-img {
-        width: 35px; /* Fixed smaller size for mobile */
+    /* #profile .profile-img {
+        width: 35px; 
         height: 35px;
-        margin: 0; /* Remove margins */
-    }
+        margin: 0; 
+    } */
 
     #shop {
         order: 3; 
