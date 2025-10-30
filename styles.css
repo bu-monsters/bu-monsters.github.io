@@ -69,8 +69,8 @@
     }
 
     #home .logo-img {
-        width: 120px; /* Fixed smaller size for mobile */
-        height: auto; 
+        width: 20%; /* Fixed smaller size for mobile */
+        height: 20%; 
         margin: 0; /* Remove margins */
     }
 
