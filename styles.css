@@ -16,15 +16,15 @@
 
 /* Base styles for the image inside the home link */
 #home .logo-img {
-    width: 150px; /* Set a fixed width for the logo */
+    width: 300px; /* Set a fixed width for the logo */
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Add some space to the right */
 }
 
 /* Styles for the 'Shop' link */
 #shop {
-    width: 100px; /* Fixed width for the button */
-    height: 40px; /* Fixed height */
+    width: 150px; /* Fixed width for the button */
+    height: 80px; /* Fixed height */
     background-color: #00B4C4;
     border: none;
     color: white;
@@ -41,8 +41,8 @@
 
 /* Styles for the image inside the profile link */
 #profile .profile-img {
-    width: 40px; /* Fixed width for profile icon */
-    height: 40px; /* Fixed height */
+    width: 80px; /* Fixed width for profile icon */
+    height: 80px; /* Fixed height */
     margin-left: 10px; /* Adjust margin */
 }
 
