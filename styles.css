@@ -4,6 +4,10 @@
     overflow: hidden;
 }
 
+.split {
+    margin-left: 15px; 
+}
+
 /* #topnav, .topnav {
     overflow: hidden;
     display: flex;
@@ -20,7 +24,7 @@
     width: 400px;
 } */
 
-.logo-img {
+/* .logo-img {
     max-width: 200px;
     height: auto;
 }
@@ -28,13 +32,9 @@
 .profile-img {
     width: 250px;
     height: 250px;
-}
+} */
 
-.split {
-    margin-left: 15px; 
-}
-
-.monster-site-header-button {
+/* .monster-site-header-button {
     height: 200px; 
     width: 400px;
     font-size: 1.1em;
@@ -127,7 +127,7 @@ body {
     font-size: 25px;
     text-decoration:none;
     color: #00B4C4;
-} */
+} 
 
 .monster-image {
     border-radius: 24px;
@@ -151,12 +151,11 @@ h2 {
   font-size: 10%;
 }
 
-/* --- Default (Desktop/Larger Screen) Styles --- */
 #home-title-text {
-    font-size: 4.5rem; /* Large size for desktop */
+    font-size: 4.5rem; 
     text-align: left;
     margin-left: 50px;
-    margin-top: 300px; /* Large space on desktop */
+    margin-top: 300px; 
 }
 
 #home-description-text {
@@ -166,19 +165,18 @@ h2 {
 }
 
 
-/* --- Mobile Styles (Applied when screen width is 600px or less) --- */
 @media (max-width: 600px) {
     #home-title-text {
-        font-size: 2rem; /* Much smaller font size for mobile */
-        margin-left: 15px; /* Reduce horizontal margin */
-        margin-top: 50px; /* Reduce large top margin */
-        text-align: center; /* Optional: Center text on mobile */
+        font-size: 2rem; 
+        margin-left: 15px; 
+        margin-top: 50px; 
+        text-align: center; 
     }
 
     #home-description-text {
-        font-size: 1rem; /* Smaller font size for mobile */
-        margin-left: 15px; /* Reduce horizontal margin */
-        text-align: center; /* Optional: Center text on mobile */
+        font-size: 1rem; 
+        margin-left: 15px;
+        text-align: center; 
     }
 }
 
@@ -220,7 +218,7 @@ h2 {
     float: left;
 }
 
-/* .right {
+ .right {
     float: right;
     margin-right: 100px;
     margin-top: 150px;
@@ -236,30 +234,30 @@ h2 {
   width: 80%;
   height: 80%;
   margin: auto;
-} */
-/* Default Desktop Styles (assuming .right is a column) */
+} 
+
 .right {
   width: 40%;
   float: right;
 }
 
-/* Mobile-Specific Overrides */
+ Mobile-Specific Overrides 
 @media (max-width: 600px) {
   .right {
-    width: 100%; /* Full width on mobile */
-    float: none; /* Stacks correctly */
-    text-align: center; /* Center content */
-    padding: 20px 0; /* Add some breathing room */
+    width: 100%; 
+    float: none; 
+    text-align: center; 
+    padding: 20px 0; 
   }
 
   #qr-code {
     display: block;
-    margin: 0 auto; /* Center the image */
-    max-width: 200px; /* Optional: Constrain the size on mobile */
+    margin: 0 auto;
+    max-width: 200px; 
   }
 }
 
-/* #monster-details-container {
+#monster-details-container {
     display: flex;
     justify-content: center;
     float: left;
@@ -271,11 +269,11 @@ h2 {
     height: 50%;
     word-wrap: break-word;
     text-align: left;
-} */
+} 
 
 #monster-detail-image {
     border-radius: 36px;
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 #monster-details-title {
@@ -289,13 +287,13 @@ h2 {
     margin-left: 10px;
 }
 
-/* #details {
+#details {
      justify-content: center;
     display: flex;
     height: 100%;
     align-items: center; 
     margin-top: 35%;
-} */
+} 
 
 .monster-detail-button {
     font-size: 1em;
@@ -331,4 +329,4 @@ h2 {
     text-transform: uppercase;
     padding: 10px;
     display: inline;
-}
+} */
