@@ -17,8 +17,8 @@
 
 /* Styles for the image inside the home link - using percentage as in original inline style */
 #home .logo-img {
-    width: 80%; /* Large width relative to its parent 'a#home' */
-    height: 100%; /* Large height relative to its parent 'a#home' */
+    width: auto; /* Large width relative to its parent 'a#home' */
+    height: 80%; /* Large height relative to its parent 'a#home' */
     margin-right: 20%;
 }
 
@@ -41,8 +41,8 @@
 
 /* Styles for the image inside the profile link */
 #profile .profile-img {
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 150%;
     margin-left: 25%;
 }
 
