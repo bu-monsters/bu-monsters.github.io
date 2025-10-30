@@ -17,8 +17,8 @@
 
 /* Styles for the image inside the home link - using percentage as in original inline style */
 #home .logo-img {
-    width: 50%; /* Large width relative to its parent 'a#home' */
-    height: 80%; /* Large height relative to its parent 'a#home' */
+    width: 80%; /* Large width relative to its parent 'a#home' */
+    height: auto; /* Large height relative to its parent 'a#home' */
     margin-right: 20%;
 }
 
