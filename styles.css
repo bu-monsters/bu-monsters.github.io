@@ -14,8 +14,6 @@
 }
 
 #topnav a {
-    height: 200px;
-    width: 300px;
     display: flex;
     align-items: center;
 }
@@ -35,19 +33,18 @@
 }
 
 .monster-site-header-button {
-    height: 40px; /* Give the button a fixed, noticeable height */
-    width: 80px; /* Adjusted width to be compact */
+    height: 200px; 
+    width: 300px;
     font-size: 1em;
-    border-radius: 5px; /* Small radius to match screenshot's square look */
+    border-radius: 5px;
     background-color: #00B4C4;
     color: white;
-    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0; /* Remove padding that interferes with fixed height/width */
+    padding: 0;
     text-align: center;
-    line-height: normal; /* Ensure text is centered vertically in the button */
+    line-height: normal; 
 }
 
 @media (max-width: 600px) {
