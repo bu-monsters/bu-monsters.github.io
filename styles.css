@@ -20,7 +20,7 @@
 }
 
 .logo-img {
-    max-width: 180px;
+    max-width: 200px;
     height: auto;
 }
 
@@ -30,25 +30,42 @@
 }
 
 .split {
-    margin-left: 10px; 
+    margin-left: 15px; 
+}
+
+.monster-site-header-button {
+    height: 40px; /* Give the button a fixed, noticeable height */
+    width: 80px; /* Adjusted width to be compact */
+    font-size: 1em;
+    border-radius: 5px; /* Small radius to match screenshot's square look */
+    background-color: #00B4C4;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Remove padding that interferes with fixed height/width */
+    text-align: center;
+    line-height: normal; /* Ensure text is centered vertically in the button */
 }
 
 @media (max-width: 600px) {
     .logo-img {
-        max-width: 120px; 
+        max-width: 120px;
     }
 
     .profile-img {
-        max-width: 30px; 
+        max-width: 30px;
     }
 
     .monster-site-header-button {
-        width: 80px; 
-        font-size: 0.8em;
+        width: 60px; /* Smaller button on mobile */
+        height: 30px;
+        font-size: 0.7em;
     }
 
     #topnav, .topnav {
-        height: 60px; 
+        height: 60px;
         padding: 0 3%;
     }
 }
@@ -130,20 +147,6 @@ a {
 #profile-image {
     width: 150px;
     height: 150px;
-}
-
-.monster-site-header-button {
-    height:auto;
-    width:120px;
-    font-size: 1em;
-    border-radius: 5%;
-    background-color: #00B4C4;
-    color: white;
-    border: none;
-    display: flex;          
-    justify-content: center;   
-    align-items: center;
-    padding: 5px;
 }
 
 h2 {
