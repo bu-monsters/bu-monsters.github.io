@@ -71,7 +71,7 @@
     }
 
     #home .logo-img {
-        width: auto; 
+        width: 200px; 
         height: 100px; 
         margin: 0; 
     }
@@ -99,6 +99,14 @@
       height: 50%;
       margin: auto;
     } 
+
+    .image-container img {
+      display: block; 
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+      height: 60%;
+    }
 }
 
 h1 {
