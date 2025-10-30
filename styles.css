@@ -98,7 +98,7 @@ h1 {
     font-size: 3em;
 }
 
-h3 {
+h4 {
     text-align: center;
     font-size: 2em;
 }
@@ -166,11 +166,7 @@ body {
 
 .center-text {
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
+    margin-top: 10%;
 }
 
 #contact-us {
