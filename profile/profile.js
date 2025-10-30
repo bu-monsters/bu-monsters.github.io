@@ -1,7 +1,7 @@
 function handleAccountCreated() {
   window.name = document.getElementById("create-username").value;
   console.log("name: " + window.name);
-  window.location.href = "https://monster-site.github.io/profile/user.html";
+  window.location.href = "https://bu-monsters.github.io/profile/user.html";
   alert("Branch " + "COMPLETE_REGISTRATION" + " event was tracked!");
   return false;
 }
@@ -9,7 +9,7 @@ function handleAccountCreated() {
 function handleUserLoggedIn() {
   window.name = document.getElementById("login-username").value;
   console.log("name: " + window.name);
-  window.location.href = "https://monster-site.github.io/profile/user.html";
+  window.location.href = "https://bu-monsters.github.io/profile/user.html";
   alert("Branch " + "LOGIN" + " event was tracked!");
   return false;
 }
@@ -24,7 +24,7 @@ function logout() {
   document.getElementById("signed-in").hidden = true;
   document.getElementById("signed-out").hidden = false;
   alert("Branch " + "LOGOUT" + " event was tracked!");
-  window.location.href = "https://monster-site.github.io/profile/user.html";
+  window.location.href = "https://bu-monsters.github.io/profile/user.html";
   return false;
 }
 
