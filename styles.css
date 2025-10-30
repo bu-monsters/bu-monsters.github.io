@@ -25,7 +25,7 @@
 /* Styles for the 'Shop' link - using percentage width as in original inline style */
 #shop {
     width: 10%; /* Percentage width of #topnav */
-    height: 100%%; /* Percentage height of #topnav */
+    height: 100%; /* Percentage height of #topnav */
     background-color: #00B4C4;
     border: none;
     color: white;
