@@ -10,12 +10,14 @@
     align-items: center; 
     justify-content: space-between;
     height: 80px;
-    padding: 0 5%;
+    padding: 0 15%;
 }
 
 #topnav a {
     display: flex;
     align-items: center;
+    height: 200px; 
+    width: 400px;
 }
 
 .logo-img {
@@ -33,13 +35,11 @@
 }
 
 .monster-site-header-button {
-    height: 40px; 
-    width: 120px; /* Use a slightly wider width for desktop button */
+    height: 200px; 
+    width: 400px; /* Use a slightly wider width for desktop button */
     font-size: 1.1em; /* Make text slightly larger */
     border-radius: 5px; 
     background-color: #00B4C4; /* Enforce the background color */
-    color: white !important; /* IMPORTANT: Use !important to override the global 'a' color */
-    border: none;
     display: flex; 
     justify-content: center; 
     align-items: center;
