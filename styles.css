@@ -13,12 +13,12 @@
     padding: 0 15%;
 }
 
-#topnav a {
+/* #topnav a {
     display: flex;
     align-items: center;
     height: 200px; 
     width: 400px;
-}
+} */
 
 .logo-img {
     max-width: 200px;
@@ -36,14 +36,14 @@
 
 .monster-site-header-button {
     height: 200px; 
-    width: 400px; /* Use a slightly wider width for desktop button */
-    font-size: 1.1em; /* Make text slightly larger */
+    width: 400px;
+    font-size: 1.1em;
     border-radius: 5px; 
-    background-color: #00B4C4; /* Enforce the background color */
+    background-color: #00B4C4;
     display: flex; 
     justify-content: center; 
     align-items: center;
-    padding: 0 15px; /* Add horizontal padding for a better look */
+    padding: 0 15px; 
     text-align: center;
 }
 
