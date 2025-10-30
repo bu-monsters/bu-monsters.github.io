@@ -10,22 +10,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 3em; /* Sets the desired height for the header */
+    height: 3em;
     padding: 0 5%;
-    /* Keep flex-wrap for safety, but not strictly needed for wide desktop */
 }
 
 /* Styles for the image inside the home link - using percentage as in original inline style */
 #home .logo-img {
-    width: auto; /* Large width relative to its parent 'a#home' */
-    height: 40%; /* Large height relative to its parent 'a#home' */
+    width: 20%; 
+    height: 20%; 
     margin-right: 20%;
 }
 
 /* Styles for the 'Shop' link - using percentage width as in original inline style */
 #shop {
-    width: 10%; /* Percentage width of #topnav */
-    height: 50%; /* Percentage height of #topnav */
+    width: 15%; /* Percentage width of #topnav */
+    height: 100%; /* Percentage height of #topnav */
     background-color: #00B4C4;
     border: none;
     color: white;
