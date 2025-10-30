@@ -8,6 +8,10 @@
   height: 30%;
 }
 
+.header-content-container {
+    text-align: center;
+}
+
 /* --- 🖥️ DESKTOP BASE STYLES (Default) --- */
 
 #topnav {
@@ -47,59 +51,6 @@
     width: 100%;
     height: 100%;
     margin-left: 25%;
-}
-
-/* --- 📱 MOBILE STYLES (Overrides for screens <= 768px) --- */
-
-@media (max-width: 768px) {
-    #topnav {
-        flex-direction: column; /* Stack items vertically */
-        height: auto; /* Allow height to adjust to content */
-        padding: 1em 2%; /* Reduce padding */
-        gap: 1em; /* Add space between stacked items */
-    }
-
-    /* Standardize all top-level links to take full width and be centered */
-    #topnav > a { 
-        width: 100%; 
-        display: flex; /* Make children flex containers */
-        justify-content: center; /* Center content (like images) */
-    }
-
-    #home {
-        order: 1; 
-    }
-
-    #home .logo-img {
-        width: 350px; 
-        height: 80px; 
-        margin: 0; 
-    }
-
-    #profile {
-        order: 2; 
-    }
-
-     #profile .profile-img {
-        width: 70px; 
-        height: 70px;
-        margin: 0; 
-    } 
-
-    #shop {
-        order: 3; 
-        width: 80%; /* Wider fixed size for button */
-        height: 40px;
-        margin: 0 auto; 
-        font-size: 1.5em; 
-    }
-
-    #qr-code {
-      width: 250px;
-      height: 250px;
-      display: block;
-      margin: 0 auto;
-    }
 }
 
 h1 {
@@ -210,7 +161,6 @@ h2 {
 
     #home-description-text {
         font-size: 1rem; 
-        margin-left: 15px;
         text-align: center; 
     }
 }
@@ -274,22 +224,6 @@ h2 {
 .right {
   width: 40%;
   float: right;
-}
-
- Mobile-Specific Overrides 
-@media (max-width: 600px) {
-  .right {
-    width: 100%; 
-    float: none; 
-    text-align: center; 
-    padding: 20px 0; 
-  }
-
-  #qr-code {
-    display: block;
-    margin: 0 auto;
-    max-width: 200px; 
-  }
 }
 
 #monster-details-container {
@@ -365,3 +299,73 @@ h2 {
     padding: 10px;
     display: inline;
 } 
+
+/* --- 📱 MOBILE STYLES (Overrides for screens <= 768px) --- */
+
+@media (max-width: 768px) {
+    #topnav {
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Allow height to adjust to content */
+        padding: 1em 2%; /* Reduce padding */
+        gap: 1em; /* Add space between stacked items */
+    }
+
+    /* Standardize all top-level links to take full width and be centered */
+    #topnav > a { 
+        width: 100%; 
+        display: flex; /* Make children flex containers */
+        justify-content: center; /* Center content (like images) */
+    }
+
+    #home {
+        order: 1; 
+    }
+
+    #home .logo-img {
+        width: 350px; 
+        height: 80px; 
+        margin: 0; 
+    }
+
+    #profile {
+        order: 2; 
+    }
+
+     #profile .profile-img {
+        width: 70px; 
+        height: 70px;
+        margin: 0; 
+    } 
+
+    #shop {
+        order: 3; 
+        width: 80%; /* Wider fixed size for button */
+        height: 40px;
+        margin: 0 auto; 
+        font-size: 1.5em; 
+    }
+
+    #qr-code {
+      width: 250px;
+      height: 250px;
+      display: block;
+      margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+  .right {
+    width: 100%; 
+    float: none; 
+    text-align: center; 
+    padding: 20px 0; 
+  }
+
+  #qr-code {
+      display: block;
+      margin: 0 auto;
+      max-width: 80%; 
+      width: 200px;
+      height: 200px;
+    }
+}
