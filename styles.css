@@ -257,11 +257,10 @@ h2 {
 }
 
 #details {
-     justify-content: center;
+    justify-content: center;
     display: flex;
     height: 100%;
-    align-items: center; 
-    margin-top: 35%;
+    align-items: center;
 } 
 
 .monster-detail-button {
