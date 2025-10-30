@@ -4,44 +4,105 @@
     margin-left: 15px; 
 }
 
-/* Styles for the main navigation bar container */
+/* Base styles for the main navigation bar container */
 #topnav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 8em;
+    height: 8em; /* Can be adjusted */
     padding: 0 5%;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
 }
 
-/* Styles for the image inside the home link */
-.logo-img {
-    width: 50%;
-    height: 80%;
-    margin-right: 20%;
+/* Base styles for the image inside the home link */
+#home .logo-img {
+    width: 150px; /* Set a fixed width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add some space to the right */
 }
 
 /* Styles for the 'Shop' link */
 #shop {
-    width: 10%;
-    height: 40%;
+    width: 100px; /* Fixed width for the button */
+    height: 40px; /* Fixed height */
     background-color: #00B4C4;
     border: none;
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.2em; /* Adjusted font size for mobile */
     margin: 4px 2px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0; /* Prevent shrinking on smaller screens */
 }
 
 /* Styles for the image inside the profile link */
-.profile-img {
-    width: 100%;
-    height: 100%;
-    margin-left: 25%;
+#profile .profile-img {
+    width: 40px; /* Fixed width for profile icon */
+    height: 40px; /* Fixed height */
+    margin-left: 10px; /* Adjust margin */
+}
+
+/* Media query for screens smaller than 768px (common breakpoint for tablets/mobile) */
+@media (max-width: 768px) {
+    #topnav {
+        flex-direction: column; /* Stack items vertically */
+        height: auto; /* Adjust height based on content */
+        padding: 1em 2%; /* Reduce padding */
+        gap: 1em; /* Add space between stacked items */
+    }
+
+    #topnav > a { /* Target direct child links within topnav */
+        width: 100%; /* Make links take full width */
+        text-align: center;
+    }
+
+    #home {
+        order: 1; /* Puts the home link first */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #home .logo-img {
+        width: 120px; /* Slightly smaller logo on mobile */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    #shop {
+        order: 3; /* Puts shop button below logo and profile */
+        width: 80%; /* Make shop button wider */
+        margin: 0 auto; /* Center the button */
+        font-size: 1.5em; /* Increase font size for readability */
+    }
+    
+    #profile {
+        order: 2; /* Puts profile icon after logo */
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #profile .profile-img {
+        width: 35px; /* Slightly smaller profile icon */
+        height: 35px;
+        margin-left: 0; /* Remove left margin */
+    }
+}
+
+/* You might want to add additional media queries for even smaller phones if needed */
+@media (max-width: 480px) {
+    #topnav {
+        padding: 0.8em 1%;
+    }
+
+    #shop {
+        width: 90%;
+        font-size: 1.3em;
+    }
 }
 
 
