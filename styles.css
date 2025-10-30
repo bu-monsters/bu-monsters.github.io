@@ -5,35 +5,53 @@
 }
 
 #topnav, .topnav {
-    /* 1. Enable Flexbox for horizontal arrangement */
-    display: flex; 
-    
-    /* 2. Vertically align all items in the center */
-    align-items: center; 
-    
-    /* 3. Distribute space between elements (adjust as needed) */
-    justify-content: space-evenly; 
-    
-    /* Add padding/height for aesthetics (optional) */
-    height: 60px; 
-    column-gap: 10px;
-}
-
-@media (min-width: 768px) {
-    #topnav, .topnav {
-        /* Desktop height override */
-        height: 400px; 
-    }
+    overflow: hidden;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 5%;
 }
 
 #topnav a {
-    display: flex;
-    align-items: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
-/* .topnav a.split {
-  float: right;
-} */
+.logo-img {
+    max-width: 180px;
+    height: auto;
+}
+
+.profile-img {
+    max-width: 40px;
+    height: auto;
+}
+
+.split {
+    margin-left: 10px; 
+}
+
+@media (max-width: 600px) {
+    .logo-img {
+        max-width: 120px; 
+    }
+
+    .profile-img {
+        max-width: 30px; 
+    }
+
+    .monster-site-header-button {
+        width: 80px; 
+        font-size: 0.8em;
+    }
+
+    #topnav, .topnav {
+        height: 60px; 
+        padding: 0 3%;
+    }
+}
 
 h1 {
     text-align: center;
