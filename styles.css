@@ -351,6 +351,64 @@ h2 {
       display: block;
       margin: 0 auto;
     }
+
+  #details {
+        /* Overrides 'display: flex' from desktop by changing the direction */
+        flex-direction: column; 
+        
+        /* Reset excessive vertical space for mobile */
+        margin-top: 0; 
+        padding-top: 20px; 
+    }
+
+    /* Make the image container take full width and center the image */
+    #monster-details-container {
+        /* Ensure the container doesn't have restrictive sizing */
+        width: 100%; 
+        text-align: center; 
+        margin-right: 0; 
+    }
+
+    /* Make the image responsive and larger for viewing */
+    #monster-detail-image {
+        /* Use relative width so it scales, but limit the max size */
+        width: 80% !important; 
+        max-width: 250px; 
+        height: auto;
+    }
+
+    /* Make the text container take full width */
+    #monster-details-text-container {
+        width: 90%; /* Use most of the screen width */
+        margin: 20px auto 0 auto; /* Center the container horizontally */
+        text-align: center; /* Center text titles/descriptions */
+    }
+    
+    /* Ensure the detail buttons are easy to use */
+    #detail-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px;
+        align-items: center; /* Center buttons */
+    }
+    
+    /* Make buttons full-width */
+    .monster-detail-button {
+        width: 90% !important; /* Make buttons nearly full-width for easy tapping */
+        max-width: 300px;
+    }
+    
+    /* Fix the width on your share button */
+    .monster-detail-button[style*="width:100px"] {
+        width: 100px !important; /* Keep the share button small if desired */
+    }
+    
+    /* Center the text elements */
+    #details-badge-text,
+    #monster-details-title,
+    #monster-details-description {
+        text-align: center;
+        margin-left: 0; /* Remove potential conflicting margins */
+    }
 }
 
 @media (max-width: 600px) {
