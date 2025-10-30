@@ -91,67 +91,6 @@
     }
 }
 
-
-/* #topnav, .topnav {
-    overflow: hidden;
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-     height: 80px; 
-    padding: 0 15%;
-} */
-
-/* #topnav a {
-    display: flex;
-    align-items: center;
-    height: 200px; 
-    width: 400px;
-} */
-
-/* .logo-img {
-    max-width: 200px;
-    height: auto;
-}
-
-.profile-img {
-    width: 250px;
-    height: 250px;
-} */
-
-/* .monster-site-header-button {
-    height: 200px; 
-    width: 400px;
-    font-size: 1.1em;
-    border-radius: 5px; 
-    background-color: #00B4C4;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    padding: 0 15px; 
-    text-align: center;
-}
-
-@media (max-width: 600px) {
-    .logo-img {
-        max-width: 120px;
-    }
-
-    .profile-img {
-        max-width: 30px;
-    }
-
-    .monster-site-header-button {
-        height: 200px; 
-        width: 400px;
-        font-size: 1.2em;
-    }
-
-    #topnav, .topnav {
-        height: 60px;
-        padding: 0 3%;
-    }
-}
-
 h1 {
     text-align: center;
     font-size: 3em;
@@ -413,4 +352,4 @@ h2 {
     text-transform: uppercase;
     padding: 10px;
     display: inline;
-} */
+} 
